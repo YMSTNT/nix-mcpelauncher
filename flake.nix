@@ -9,8 +9,8 @@
     app = appimageTools.wrapType2 {
       name = "mcpelauncher";
     src = pkgs.fetchurl {
-      url = "https://github.com/ChristopherHX/linux-packaging-scripts/releases/download/v0.8.0-700/Minecraft_Bedrock_Launcher-x86_64-v0.8.0.700.AppImage";
-      sha256 = "KX4w9zrbTwJxp+fVB/eImlN+qu+svgmN70teNAkBQeU=";
+      url = "https://github.com/minecraft-linux/appimage-builder/releases/download/v0.11.2-718/Minecraft_Bedrock_Launcher-x86_64-v0.11.2.718.AppImage";
+      sha256 = "049cl0x1xz1g33hls4qncpspvgdapfx3m5jd9dvzs0kcyipvamjs";
     };
     extraPkgs = pkgs: with pkgs; [ ];
   };
